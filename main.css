@@ -20,6 +20,32 @@ header, footer {
     padding-top: 3rem;
 }
 
+.content-wrapper .section-container{
+    text-align: center;
+}
+
+.content-wrapper .section-container .text-center{
+    padding: 1rem 0;
+    color : white;
+}
+
+.content-wrapper .section-container .text-center h1{
+    color : white;
+    padding-bottom: .5rem;
+}
+
+.content-wrapper .section-container .text-center p{
+    padding: .2rem;
+}
+
+
+.content-wrapper .section-container .text-center p a{
+    color : rgb(167, 177, 167);
+    margin: 2rem 1rem;
+    font-size: 22px;
+}
+
+
 
 header p a, footer p a{
     color: white;
@@ -73,6 +99,11 @@ header p a:hover{
     width: 90%;
     margin: 2rem auto;
 }
+
+.language h2 {
+    color: rgb(235, 228, 217);
+}
+
 .languages-cards {
     display: flex;
     justify-content: space-between;
