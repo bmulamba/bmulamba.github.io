@@ -80,11 +80,12 @@ header p a:hover{
 
 .card .card-block .card-content .card-project{
     width: 30%;
-    background-color: rgb(241, 243, 243);
+    
 }
 
 .card .card-block .card-content .card-project img{
     width: 100%;
+    cursor: pointer;
 }
 .card .card-block .card-content img{
     width: 200px;
@@ -99,6 +100,17 @@ header p a:hover{
 .container-card {
     width: 90%;
     margin: 2rem auto;
+}
+
+.card-small {
+    width: 100%;
+    height: 30vh;
+}
+
+.card-small img {
+    width: 100%;
+    height: 30vh;
+    cursor: pointer;
 }
 
 .language h2 {
