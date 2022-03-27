@@ -99,7 +99,11 @@ header p a:hover{
 
 .container-card {
     width: 90%;
-    margin: 2rem auto;
+    margin: 0 auto;
+}
+
+.container-card .language {
+    padding: 1rem;
 }
 
 .card-small {
@@ -113,7 +117,12 @@ header p a:hover{
     cursor: pointer;
 }
 
+.language {
+    padding: 2rem;
+}
+
 .language h2 {
+    padding-bottom: 1rem;
     color: rgb(235, 228, 217);
 }
 
@@ -121,11 +130,10 @@ header p a:hover{
     display: flex;
     justify-content: space-between;
 }
-
-
+ 
 .flip-card {
     background-color: transparent;
-    width: 300px;
+    width: 325px;
     height: 300px;
     perspective: 1000px;
   }
