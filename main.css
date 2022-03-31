@@ -26,7 +26,11 @@ header, footer {
 
 .content-wrapper .section-container .text-center{
     padding: 1rem 0;
+    margin : 0 auto;
+    width: 100%;
     color : white;
+    display: flex;
+    flex-direction: column;
 }
 
 .content-wrapper .section-container .text-center h1{
