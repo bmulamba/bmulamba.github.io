@@ -143,7 +143,7 @@ header p a:hover{
  
 .flip-card {
     background-color: transparent;
-    width: 33px;
+    width: 330px;
     height: 300px;
     perspective: 1000px;
   }
