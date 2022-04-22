@@ -8,10 +8,12 @@ html {
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%
 }
+
 body{
     margin:0;
     padding: 0;
     background-color: rgb(28, 28, 95);
+    font-family: 'Lato', sans-serif;
 }
 
 header, footer {
@@ -83,8 +85,7 @@ header p a:hover{
 }
 
 .card .card-block .card-content .card-project{
-    width: 30%;
-    
+    width: 45%;
 }
 
 .card .card-block .card-content .card-project img{
@@ -134,10 +135,15 @@ header p a:hover{
     display: flex;
     justify-content: space-between;
 }
+
+.bottom-card {
+    display: flex;
+    width: 100%;
+}
  
 .flip-card {
     background-color: transparent;
-    width: 325px;
+    width: 25vw;
     height: 300px;
     perspective: 1000px;
   }
