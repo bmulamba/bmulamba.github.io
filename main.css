@@ -204,4 +204,10 @@ header p a:hover{
         margin-bottom: 0.7rem;
         width: 100%;
     }
+
+    .card-content p .img-responsive {
+        width: 100%;
+    }
+
+
 }
