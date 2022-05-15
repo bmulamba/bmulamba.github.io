@@ -194,3 +194,14 @@ header p a:hover{
     justify-content: center;
 
 }
+
+@media only screen and (max-width : 600px) {
+    .bottom-card {
+        display: flex;
+        flex-direction: column;
+    }
+    .flip-card {
+        margin-bottom: 0.7rem;
+        width: 100%;
+    }
+}
