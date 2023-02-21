@@ -12,7 +12,7 @@ html {
 body{
     margin:0;
     padding: 0;
-    background-color: rgb(28, 28, 95);
+    background-color: rgb(63, 109, 193);
     font-family: 'Lato', sans-serif;
 }
 
@@ -38,7 +38,41 @@ header, footer {
 .content-wrapper .section-container .text-center h1{
     color : white;
     padding-bottom: .5rem;
+    font-size: 4rem;
+    box-shadow: 4px gray;
 }
+
+.content-wrapper .section-container .header-cv{
+    margin-bottom: 1rem;
+}
+
+.content-wrapper .section-container .header-cv .tetxcv{
+    color: rgb(50, 115, 75);
+    background-color: rgb(198, 197, 197);
+    padding: .7rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card-content .img-responsive {
+    min-width: 90%;
+}
+
+.content-wrapper .section-container .text-center h3{
+    padding: 1rem;
+    color: chartreuse;
+}
+
+button {
+    padding: 0.6rem 1rem;
+    border-radius : 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    
+}
+
 
 .content-wrapper .section-container .text-center p{
     padding: .2rem;
@@ -46,7 +80,7 @@ header, footer {
 
 
 .content-wrapper .section-container .text-center p a{
-    color : rgb(167, 177, 167);
+    color : rgb(248, 129, 10);
     margin: 2rem 1rem;
     font-size: 22px;
 }
@@ -57,7 +91,7 @@ header p a, footer p a{
     color: white;
     text-decoration: none;
     margin: 3rem 1.2rem;
-    font-size: 23px;
+    font-size: 29px;
 }
 
 header p a:hover{
