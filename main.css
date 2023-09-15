@@ -61,11 +61,11 @@ header, footer {
 
 .content-wrapper .section-container .text-center h3{
     padding: 1rem;
-    color: chartreuse;
+    color: rgb(145, 161, 129);
 }
 
 button {
-    padding: 0.6rem 1rem;
+    padding: 0.7rem 1rem;
     border-radius : 10px;
     border: none;
     cursor: pointer;
