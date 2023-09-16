@@ -155,3 +155,30 @@ nav ul li a:hover::after {
 .tab-contents.active-tab {
     display: block;
 }
+
+
+/* portofolio  */
+
+#portofolio {
+    padding: 50px 0;
+}
+
+.work-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.work {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.work img {
+    width: 100%;
+    border-radius: 10px;
+    height: 45vh;
+    display: block;
+}
