@@ -2,7 +2,7 @@
 var tablinks = document.getElementsByClassName('tab-links');
 var tabcontents = document.getElementsByClassName('tab-contents');
 
-var sidemenu = document.getElementById("sidemenu");
+var sidemenus = document.getElementById("sidemenu");
 
 function opentab(tabname){
     for (tablink of tablinks){
@@ -16,11 +16,11 @@ function opentab(tabname){
 };
 
 function openmenu(){
-    sidemenu.style.right = "0";
+    sidemenus.style.right = "0";
     alert("uuyyghh");
 };
 
 function closemenu(){
-    sidemenu.style.right = "-200px";
+    sidemenus.style.right = "-200px";
 };
 
