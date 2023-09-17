@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #080808;
+    background-color: #05050e;
     color: #fff;
 }
 
@@ -303,5 +303,13 @@ iframe {
 .social-icons a:hover {
     color: #b54769;
     transform: translateY(-5px);
+}
 
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background-color: #040408;
+    font-weight: 500;
+    margin-top: 30px;
 }
