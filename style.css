@@ -75,7 +75,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #301fcc;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -138,6 +138,7 @@ nav ul li a:hover::after {
 .tab-links {
     margin-right: 50px;
     text-transform: capitalize;
+    font-weight: 500;
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
@@ -148,7 +149,7 @@ nav ul li a:hover::after {
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #301fcc;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -160,7 +161,7 @@ nav ul li a:hover::after {
 }
 
 .tab-contents ul li span {
-    color: #b54769;
+    color: #2ea944;
     font-size: 14px;
 }
 
@@ -282,7 +283,7 @@ nav ul li a:hover::after {
 }
 
 .contact-left p i {
-    color : #b54769;
+    color : #181387;
     margin-right: 13px;
 }
 
@@ -309,7 +310,7 @@ nav ul li a:hover::after {
 }
 
 .social-icons a:hover {
-    color: #b54769;
+    color: #323d21;
     transform: translateY(-5px);
 }
 
@@ -390,7 +391,6 @@ nav .fas {
     .about-col-2 {
         font-size: 16px;
         margin-right: 20px;
-        padding-right: 10px;
         line-height: 25px;
         position: relative;
     }
