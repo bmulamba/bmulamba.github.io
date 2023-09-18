@@ -126,8 +126,10 @@ nav ul li a:hover::after {
 .sub-title {
     font-size: 30px;
     font-weight: 600;
+    text-align: center;
     color: white;
 }
+
 
 
 .tab-titles {
