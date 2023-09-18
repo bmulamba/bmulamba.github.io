@@ -9,6 +9,9 @@
 
   <meta name="msapplication-tap-highlight" content="no" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
 
   <title>BadinMulamba</title>
 
@@ -24,13 +27,13 @@
         <!-- <img src="images/logo" alt="" srcset=""> -->
         <h1>BM</h1>
         <ul id="sidemenu">
-          <li><a href="#">Home</a> </li>
-          <li><a href="#">About</a> </li>
-          <li><a href="#">Portofolio</a> </li>
-          <li><a href="#">Contact</a> </li>
+          <li><a href="#header">Home</a> </li>
+          <li><a href="#about">About</a> </li>
+          <li><a href="#portofolio">Portofolio</a> </li>
+          <li><a href="#contact">Contact</a> </li>
           <i class="fas fa-times"></i>
         </ul>
-        <i class="fas fa-bars" onclick="closemenu()" ></i>
+        <i class="fas fa-bars" onclick="closemenu()"></i>
       </nav>
       <div class="header-text" onclick="openmenu()">
         <p>WEB DEVELOPER</p>
@@ -41,21 +44,23 @@
   </div>
 
   <div id="about">
-    
+
     <div class="container">
-      <h1 class="sub-title">About Me</h1>
+
       <div class="row">
         <div class="about-col-1">
           <img src="assets/images/badin.jpeg" alt="#pic">
         </div>
         <div class="about-col-2">
+          <h1 class="sub-title">PROFILE</h1>
           <p>
-            Innovative, Results-focused Supervisor offering more than eight years of diverse experiences and one year in IT Web 
-            Development/Software Development and in Warehouse stores and leading a talented team. Successful in engaging with staff by discussing personal work performance.
-            Maintaining accountability and acknowledging excellent performance. Driven to maintain service and prevent shrinkage in the store, developing website, and mobile applications,
-            and dealing with trouble issues that are related to IT. Driven to maintain service standards by supporting staff in handling service issues and customer communication.
+            Innovative, Problem solver, Results-focused Supervisor offering more than eight years of experiences in
+            customer services and Retail and one year of experience in IT Web Development/Software Development and
+            leading the talented team. Successful in engaging with staff by discussing personal work performance and
+            encourage to get job done before the deadline.
+            Maintaining stability and acknowledging excellent performance. Driven to maintain service and prevent
+            shrinkage in the store, developing website, and mobile applications.
           </p>
-          
 
           <div class="tab-titles">
             <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
@@ -64,22 +69,21 @@
           </div>
           <div class="tab-contents active-tab" id="skills">
             <ul>
-              <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
-              <li><span>Web Development</span><br>Web App Development</li>
-              <li><span>App Development</span><br>Building Androi/IOS apps</li>
+              <li><span>Soft Skills</span><br>Communication | Teamwork | Leadership | Creativity | Problem solving | Flexibility |... </li>
+              <li><span>Technical Skills</span><br>Javascript | Html5 | CSS3 | Reactjs | Angular2+ | PHP | GraphQl | Appolo | Ajax | Wordpress | AdobePs | SMM | SEO | Figma | UI/UX Design | Digital Markerting | etc... </li>
             </ul>
           </div>
           <div class="tab-contents " id="experience">
             <ul>
-              <li><span>2020 - current</span><br>Team Leader - Bheka Management Services </li>
-              <li><span>2019 - 2020</span><br>Front End Developer - Abstralgo</li>
+              <li><span>2020 - current</span><br>Team Leader - Builders Warehouse/Bheka Management Services </li>
+              <li><span>2019 - 2020</span><br>Web Developer - Abstralgo</li>
               <li><span>2013 - 2016</span><br>End Controller - Makro, Massmart</li>
             </ul>
           </div>
           <div class="tab-contents" id="education">
             <ul>
-              <li><span>2018</span><br>WethinkCode</li>
-              <li><span>2020</span><br>DAM Technical College</li>
+              <li><span>2018</span><br>NQF-5, WethinkCode</li>
+              <li><span>2020</span><br>NQF-5, DAM Technical College</li>
               <li><span>2023</span><br>Coursera</li>
             </ul>
           </div>
@@ -96,8 +100,7 @@
           <img src="assets/images/digiweb.png" alt="" />
           <div class="layer">
             <h3>S/Media App</h3>
-            <p>Lorem ipsum totam neque dignissimos nesciunt, sunt magnam quis dolores aut provident, modi commodi et.
-              Minima, blanditiis rerum!</p>
+            <p>HTML5 | CSS3 | Javascript </p>
             <a href="https://blessingmedias.netlify.app" target="_blank"><i
                 class="fa-solid fa-arrow-up-right-from-square"></i></a>
           </div>
@@ -106,8 +109,7 @@
           <img src="assets/images/software.png " alt="" />
           <div class="layer">
             <h3>Software Site</h3>
-            <p>Lorem ipsum atur iste, totam neque dignissimos nesciunt, sunt magnam quis dolores aut provident, modi
-              commodi et. Minima, blanditiis rerum!</p>
+            <p>HTML5 | CSS3 | Javascript | DOM </p>
             <a href="http://www.abstralgo.com/" target="_blank"><i
                 class="fa-solid fa-arrow-up-right-from-square"></i></a>
           </div>
@@ -116,8 +118,7 @@
           <img src="assets/images/weather.png " alt="" />
           <div class="layer">
             <h3>Weather App</h3>
-            <p>Lorem ipsum dolor totam neque dignissimos nesciunt, sunt magnam quis dolores aut provident, modi commodi
-              et. Minima, blanditiis rerum!</p>
+            <p>React18 | CSS | API | SASS </p>
             <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
           </div>
         </div>
@@ -157,8 +158,6 @@
   <div class="copyright">
     <p>Copyright. Made with <i class="fas fa-heart" style="color: red;"></i> by Badin Mulamba </p>
   </div>
-
-
   <script src="app.js"></script>
 
 </body>
