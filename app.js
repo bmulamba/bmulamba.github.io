@@ -22,6 +22,6 @@ function openmenu(){
 };
 
 function closemenu(){
-    sidemenus.style.right = "-200px";
+    sidemenus.style.right = "-80%";
 };
 

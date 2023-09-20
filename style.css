@@ -354,7 +354,7 @@ nav .fas {
         background : #2a2627;
         position: fixed;
         top: 0;
-        right: -200px;
+        right: -80%;
         width: 50%;
         height: 100vh;
         padding-top: 50px;
@@ -382,7 +382,7 @@ nav .fas {
 
     .about-col-1, .about-col-2, .contact-right, .contact-left {
         flex-basis: 100%;
-        margin: 25px ;
+        /* margin: 25px ; */
     }
 
     .about-col-1 {
@@ -405,6 +405,6 @@ nav .fas {
     }
     
     .contact-right {
-        margin-top: 20px;
+        margin: 20px 0;
     }
 }
