@@ -393,6 +393,8 @@ nav .fas {
     .about-col-2 {
         font-size: 16px;
         line-height: 25px;
+        padding-right: 20px;
+        left: 25px;
         margin: 0 auto;
     }
 
