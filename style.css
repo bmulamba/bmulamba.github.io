@@ -391,16 +391,13 @@ nav .fas {
     }
 
     .about-col-2 {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 25px;
-        padding-right: 20px;
-        left: 20px;
-    
     }
 
     .tab-links {
         font-size: 18px;
-        margin-right: 30px;
+        margin-right: 20px;
     }
 
     .card-map {
