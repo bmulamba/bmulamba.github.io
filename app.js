@@ -17,9 +17,7 @@ function opentab(tabname){
 
 function openmenu(){
     sidemenus.style.right = "0";
-    if(sidemenus.click){
-        sidemenus.remove(ul);
-    }
+    
     // alert("uuyyghh");
 };
 
