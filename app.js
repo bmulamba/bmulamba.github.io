@@ -4,6 +4,8 @@ var tabcontents = document.getElementsByClassName('tab-contents');
 
 var sidemenus = document.getElementById("sidemenu");
 
+var openmenuBtn = document.getElementById('fas')
+
 function opentab(tabname){
     for (tablink of tablinks){
         tablink.classList.remove("active-link");
@@ -17,11 +19,11 @@ function opentab(tabname){
 
 function openmenu(){
     sidemenus.style.right = "0";
-    
-    // alert("uuyyghh");
+
 };
 
 function closemenu(){
-    sidemenus.style.right = "-80%";
+    sidemenus.style.right = "-500px";
+   
 };
 
