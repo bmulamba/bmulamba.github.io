@@ -315,6 +315,30 @@ nav ul li a:hover::after {
     transform: translateY(-5px);
 }
 
+
+/* back to top */
+
+#myBtn {
+    display: none; 
+    position: fixed;
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: rgb(58, 131, 52); 
+    color: white; 
+    cursor: pointer; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-size: 10px; 
+  }
+  
+  #myBtn:hover {
+    background-color: #555; 
+  }
+
+
 .copyright {
     width: 100%;
     text-align: center;
