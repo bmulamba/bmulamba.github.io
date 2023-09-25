@@ -1,13 +1,20 @@
 
 var tablinks = document.getElementsByClassName('tab-links');
+
 var tabcontents = document.getElementsByClassName('tab-contents');
 
 var sidemenus = document.getElementById("sidemenu");
 
-let mybutton = document.getElementById("myBtn");
+var mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+var menuIcon = document.querySelector('#menu-icon');
+
+var navbar = document.querySelector(".sidemenu");
+
+menuIcon.onclick = () => {
+    menuIcon.classList.toggle('fa-times');
+    navbar.classList.toggle("active");
+}
 
 
 function opentab(tabname){
@@ -21,18 +28,11 @@ function opentab(tabname){
     document.getElementById(tabname).classList.add("active-tab")
 };
 
-function openmenu(){
-    sidemenus.style.right = "0";
-
+window.onscroll = () => {
+    scrollFunction();
+    menuIcon.classList.remove('fa-times');
+    navbar.classList.remove("active");
 };
-
-function closemenu(){
-    sidemenus.style.right = "-500px";
-   
-};
-
-
-
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {

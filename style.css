@@ -40,6 +40,11 @@ nav {
     width: 140px;
 }
 
+nav h1 a {
+    color: white;
+    text-decoration: none;
+}
+
 .container .main-cv {
     color: rgb(131, 124, 124);
     text-decoration: none;
@@ -75,7 +80,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #117a18;
+    background: #177436;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -150,7 +155,7 @@ nav ul li a:hover::after {
     content: '';
     width: 0;
     height: 3px;
-    background: #117a18;
+    background: #177436;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -315,30 +320,6 @@ nav ul li a:hover::after {
     transform: translateY(-5px);
 }
 
-
-/* back to top */
-
-#myBtn {
-    display: none; 
-    position: fixed;
-    bottom: 20px; 
-    right: 30px; 
-    z-index: 99; 
-    border: none; 
-    outline: none; 
-    background-color: rgb(58, 131, 52); 
-    color: white; 
-    cursor: pointer; 
-    padding: 10px 20px; 
-    border-radius: 5px; 
-    font-size: 10px; 
-  }
-  
-  #myBtn:hover {
-    background-color: #555; 
-  }
-
-
 .copyright {
     width: 100%;
     text-align: center;
@@ -347,6 +328,27 @@ nav ul li a:hover::after {
     font-weight: 200;
     margin-top: 30px;
 }
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px;
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: rgb(55, 112, 59); 
+    color: white; 
+    cursor: pointer; 
+    padding: 5px 10px;
+    border-radius: 5px; 
+    font-size: 13px; 
+  }
+  
+  #myBtn:hover {
+    background-color: #5a3e3e; 
+  }
+
 
 /* css small screens  */
 
@@ -374,21 +376,27 @@ nav .fas {
         font-size: 25px;
     }
 
-    nav ul {
-        background : #2a2627;
-        position: fixed;
-        top: 0;
-        right: -500px;
-        width: 50%;
-        height: 100vh;
-        padding-top: 50px;
-        z-index: 3;
-        transition: right 0.5s;
+    nav .sidemenu {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        padding: 1rem 3%;
+        top: 10%;
+        height: 90vh;
+        text-align: center;
+        z-index: 99;
+        background-color: #100f0f;
+        display: none;
+        transition: all .5s;
+    }
+
+    nav .sidemenu.active {
+        display: block;
     }
     
     nav ul li {
         display: block;
-        margin: 25px;
+        margin: 45px;
     }
 
     nav ul .fas {
